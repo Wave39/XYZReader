@@ -10,8 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        android:fitsSystemWindows="true"
-        android:elevation="8dp">
+        android:fitsSystemWindows="true">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -23,7 +22,8 @@
             android:layout_gravity="bottom"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             app:layout_scrollFlags="scroll|enterAlways"
-            android:background="#0000FF">
+            android:background="#0000FF"
+            android:fitsSystemWindows="true">
 
             <ImageView
                 android:layout_width="wrap_content"
