@@ -22,7 +22,7 @@
             android:layout_gravity="bottom"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
             app:layout_scrollFlags="scroll|enterAlways|snap"
-            android:background="#0000FF"
+            android:background="@color/theme_primary_dark"
             >
 
             <ImageView
